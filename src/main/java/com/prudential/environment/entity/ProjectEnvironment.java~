@@ -1,0 +1,21 @@
+package com.prudential.environment.entity;
+
+
+import jakarta.persistence.*;
+import lombok.Data;
+
+@Data
+@Entity
+@IdClass(ProjectEnvironmentId.class)
+@Table(name = "project_environment")
+public class ProjectEnvironment {
+    @Id
+    @ManyToOne
+    @JoinColumn(name="project_id", referencedColumnName = "project_id")
+    private Environment environment;
+
+    @Id
+    @ManyToOne
+    @JoinColumn(name="environment_name", referencedColumnName = "environment_name")
+    private Project project;
+}
