@@ -1,0 +1,4 @@
+package com.prudential.environment.config;
+
+public class OpenAPIConfig {
+}
