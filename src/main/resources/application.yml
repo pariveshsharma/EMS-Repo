@@ -4,10 +4,10 @@ server:
 spring:
   application:
     name: environment-management
-  datasource:
-    url: jdbc:postgresql://localhost:5432/ems
-    username: postgres
-    password: root
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/ems
+#    username: postgres
+#    password: root
 #  security:
 #    oauth2:
 #      client:
@@ -39,17 +39,17 @@ spring:
 #    org.springframework.security.oauth2: DEBUG
 
 
-#
-#  datasource:
-#    url: jdbc:postgresql://dpg-cvnlphc9c44c73ec1ql0-a.oregon-postgres.render.com:5432/ems_orfe?currentSchema=public
-#    username: ems_orfe_user
-#    password: yTGQSPUPFNxvQm9Ja5pCZY9b3DdDpcGD
-#    driver-class-name: org.postgresql.Driver
 
-#  jpa:
-#    database-platform: org.hibernate.dialect.PostgreSQLDialect
-#    hibernate:
-#      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://dpg-cvnlphc9c44c73ec1ql0-a.oregon-postgres.render.com:5432/ems_orfe?currentSchema=public
+    username: ems_orfe_user
+    password: yTGQSPUPFNxvQm9Ja5pCZY9b3DdDpcGD
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
 
 springdoc:
   api-docs:
