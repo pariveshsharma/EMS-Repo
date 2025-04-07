@@ -7,7 +7,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-04-04T17:13:54+0530",
+    date = "2025-04-07T13:24:00+0530",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.14 (OpenLogic)"
 )
 public class BookingMapperImpl implements BookingMapper {

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: environment-management
+    env: java
+    branch: environment
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/environment-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: DATABASE_URL
+        sync: false  # Set it manually or use a secret

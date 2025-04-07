@@ -28,7 +28,6 @@ com\prudential\environment\entity\Environment.class
 com\prudential\environment\service\EnvironmentService.class
 com\prudential\environment\service\ProjectServiceImpl.class
 com\prudential\environment\dto\EnvironmentResponse.class
-com\prudential\environment\config\SecurityConfig.class
 com\prudential\environment\dto\EnvironmentCount$EnvironmentCountBuilder.class
 com\prudential\environment\dto\ProjectResponse.class
 com\prudential\environment\repository\EnvironmentStatusRepository.class
@@ -39,7 +38,6 @@ com\prudential\environment\dto\EnvironmentResponse$EnvironmentResponseBuilder.cl
 com\prudential\environment\service\UserServiceImpl.class
 com\prudential\environment\repository\ProjectEnvironmentRepository.class
 com\prudential\environment\entity\Booking.class
-com\prudential\environment\config\GrantedAuthoritiesConverter.class
 com\prudential\environment\dto\UserDTO.class
 com\prudential\environment\entity\User.class
 com\prudential\environment\repository\ProjectRepository.class
